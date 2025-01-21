@@ -1,0 +1,16 @@
+learning.c:67:20: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+    printf("Hello %s, here are the candidate\n"),paramName;
+                  ~^
+learning.c:67:50: warning: expression result unused [-Wunused-value]
+    printf("Hello %s, here are the candidate\n"),paramName;
+                                                 ^~~~~~~~~
+learning.c:94:16: warning: format specifies type 'int *' but the argument has type 'int' [-Wformat]
+    scanf("%d",_age);
+           ~~  ^~~~
+learning.c:103:16: warning: format specifies type 'char *' but the argument has type 'char (*)[20]' [-Wformat]
+    scanf("%s",&firstName);
+           ~~  ^~~~~~~~~~
+learning.c:106:16: warning: format specifies type 'char *' but the argument has type 'char (*)[20]' [-Wformat]
+    scanf("%s",&lastName);
+           ~~  ^~~~~~~~~
+5 warnings generated.
